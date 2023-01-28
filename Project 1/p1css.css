@@ -12,8 +12,13 @@ h1 {
 h2 {
     text-align: center;
     font-size: 15px;
+    margin-top: 1px;
 }
 
 img {
-    padding: 5px;
+    padding: 15px;
+}
+
+p {
+    margin: 1px;
 }
