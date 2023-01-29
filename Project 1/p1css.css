@@ -22,3 +22,7 @@ img {
 p {
     margin: 1px;
 }
+
+span {
+    background-color: rgb(204, 229, 255);
+}
