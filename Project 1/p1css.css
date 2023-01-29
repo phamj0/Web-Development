@@ -26,3 +26,7 @@ p {
 span {
     color: rgb(16, 16, 165);
 }
+
+a:link {
+    color:rgb(86, 75, 235)
+}
