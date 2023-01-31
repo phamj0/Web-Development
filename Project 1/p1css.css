@@ -30,11 +30,3 @@ span {
 a:link {
     color:rgb(86, 75, 235)
 }
-
-table, th, td{
-    padding: 10px;
-}
-
-.self {
-    float: right;
-}
