@@ -30,3 +30,7 @@ span {
 a:link {
     color:rgb(86, 75, 235)
 }
+
+.self {
+    float: right;
+}
