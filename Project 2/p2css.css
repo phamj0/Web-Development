@@ -11,6 +11,10 @@ html * {
     background-color: #91a7f0;
 }
 
+.bg-2  {
+    background-color: rgb(171, 195, 216);
+}
+
 h1 {
   color: rgb(255, 255, 255);
   text-align: center;
