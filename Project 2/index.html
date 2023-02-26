@@ -13,33 +13,59 @@
 
     <body>
     
+        <nav class="navbar">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">Resume</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#ed">Education</a></li>
+                  <li><a href="#ex">Experience</a></li>
+                  <li><a href="#skill">Skill</a></li>
+                  <li><a href="#social">Socials</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+
+
     <div class="container-fluid img-1 text-center">
         <h1>Jamie Pham</h1>
-        <img src="me.jpg" alt="self-portrait" class="img-circle" height=350>
+         <img src="mecutout.png" alt="self-portrait" class="img-circle" height=350>
         <h2>phamjamie7@gmail.com | Coral Springs, Fl</h2>
     </div>
 
+    <section id="ed">
     <div class="container-fluid bg-1 text-center">
-        <h3><u><span>Education</span></u></h3>
+        <h3><span>Education</span></h3>
         <div class="row">
             <div class="col-sm-6">
                 <strong>Broward College</strong><br>
                 <em>Coconut Creek, Fl</em>
                 <p><em>Associates of Arts</em> | 3.7 GPA | June 2022</p>
+                <img src="BCseahawk.png" alt="bc logo" id="bclogo" height="250">
             </div>
             <div class="col-sm-6">
                 <strong>Florida Atlantic University</strong><br>
                 <em>Boca Raton, Fl</em>
                 <p><em>BA in Computer Science, Minor in Cybersecurity</em> | 3.7 GPA | Expected Dec 2024</p>
+                <img src="faumascot.png" alt="fau logo" id="faulogo" height="200">
             </div>
         </div>
     </div>
+    </section>
 
-
-    <div class="container-fluid bg-2 ">
-        <h3><u><span>Experience</span></u></h3>
+    <section id="ex">
+    <div class="container-fluid bg-2 text-center">
+        <h3><span>Experience</span></h3>
         <p><strong>Front Desk Receptionist</strong> | Jan 2019 - Jan 2023</p>
-        <p><a href="https://www.winnnailspa.com/"><em>Winn Star Nails Inc.</em></a> | Coral Springs, Fl</p>
+        <p><em>Winn Star Nails Inc.</em> | Coral Springs, Fl</p>
         <p>Responsible for day-to-day desk operations including appointment booking, ticket tracking, and support to 20+ staff.</p>
             <list>
                 <ul>
@@ -49,37 +75,37 @@
                     <li>Tracking 20+ schedules for personnel in order to maintain punctuality for clientele</li>
                 </ul>
             </list>
-
-        </div>
-
-
-    <div class="container-fluid bg-3 text-center">
-        <table>
-            <tr>
-                <th colspan="5"><u><span>Technical Skills</span></u></th>
-            </tr>
-            <tr>
-                <th>Beginnger &nbsp;&nbsp;&nbsp;&nbsp;</th>
-                <td>HTML5</td>
-                <td><img src="WIKIhtml5logo.png" alt="HTML5 Logo" height="60"></td>
-                <td>CSS</td>
-                <td><img src="csslogo.png" alt="CSS Logo" height="60"></td>
-            </tr>
-            <tr>
-                <th>Intermediate&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                <td>Python</td>
-                <td><img src="pythonlogo.png" alt="Python Logo" height="60"></td>
-            </tr>
-        </table>
     </div>
+    </section>
 
+    <section id="skill">
+    <div class="container-fluid bg-3 text-center">
+        <h3><span>Technical Skills</span></h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="pythonlogo.png" alt="python logo" id="pythonlogo" height="170">
+                <strong>Python</strong>
+            </div>
+            <div class="col-sm-4">
+                <img src="WIKIhtml5logo.png" alt="html logo" id="htmllogo" height="170">
+                <strong>HTML</strong>
+            </div>
+            <div class="col-sm-4">
+                <img src="csslogo.png" alt="css logo" id="csslogo" height="170">
+                <strong>CSS</strong>
+            </div>
+        </div>
+    </div>
+    </section>
 
     </body>
 
+    <section id="social">
     <footer class="container-fluid footer-1 text-center">
-        <h3><u><span>Social Information</span></u></h3>
+        <h3><span>Social Information</span></h3>
         <a href="https://www.linkedin.com/in/jamie-pham-1549b0210/">Linkedin Profile</a><br><br>
         <a href="malito:phamjamie7@gmail.com">phamjamie7@gmail.com</a>
     </footer>
-    
+    </section>
+
 </html>
