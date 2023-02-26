@@ -36,32 +36,6 @@ list {
     color:white;
 }
 
-#bclogo {
-    animation-name: bclogo;
-    transition: width 1s, height 1s;
-}
-
-#bclogo:hover {
-    width: 270;
-    height: 270;
-}
-
-#faulogo {
-    animation-name: faulogo;
-}
-
-#pythonlogo {
-    animation-name: pythonlogo;
-}
-
-#htmllogo {
-    animation-name: htmllogo;
-}
-
-#csslogo {
-    animation-name: csslogo;
-}
-
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
