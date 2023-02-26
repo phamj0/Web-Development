@@ -32,12 +32,22 @@ html * {
     border-radius: 30px;
 }
 
+list {
+    color:white;
+}
+
 #bclogo {
     animation-name: bclogo;
+    transition: width 1s, height 1s;
+}
+
+#bclogo:hover {
+    width: 270;
+    height: 270;
 }
 
 #faulogo {
-    
+    animation-name: faulogo;
 }
 
 #pythonlogo {
@@ -91,6 +101,3 @@ strong {
     font-size: 25px;
 }
 
-list {
-    color:white;
-}
