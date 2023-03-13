@@ -5,33 +5,27 @@
     
     /*==================================================================
     [ Validate ]*/
-    var name = $('.validate-input input[name="name"]');
-    var email = $('.validate-input input[name="email"]');
-    var subject = $('.validate-input input[name="subject"]');
-    var message = $('.validate-input textarea[name="message"]');
+    var num1 = $('.validate-input input[name="num1"]');
+    var num2 = $('.validate-input input[name="num2"]');
+    var num3 = $('.validate-input input[name="num3"]');
 
 
     $('.validate-form').on('submit',function(){
         var check = true;
 
-        if($(name).val().trim() == ''){
-            showValidate(name);
+        if($(num1).val().trim() == ''){
+            showValidate(num1);
             check=false;
         }
 
-        if($(subject).val().trim() == ''){
-            showValidate(subject);
+        if($(num3).val().trim() == ''){
+            showValidate(num3);
             check=false;
         }
 
 
-        if($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-            showValidate(email);
-            check=false;
-        }
-
-        if($(message).val().trim() == ''){
-            showValidate(message);
+        if($(num2).val().trim() == ''){
+            showValidate(num2);
             check=false;
         }
 
